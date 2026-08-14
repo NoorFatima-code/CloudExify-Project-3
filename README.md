@@ -3,12 +3,12 @@
 **Registration number: CX-INT-2026-GEN-0184**
 # Noor Smile Dental Studio — Pakistan Dental Clinic Landing Page
 
-A polished, responsive dental clinic prototype for **Noor Smile Dental Studio**, a fictional clinic in Gulberg III, Lahore. The experience is designed to feel warm, considered and locally relevant while remaining easy to customise for a real clinic.
+A polished, responsive dental clinic prototype for **Noor Smile Dental Studio**, a fictional clinic in Trikha, Gujrat. The experience is designed to feel warm, considered and locally relevant while remaining easy to customise for a real clinic. We followed the **Bold Modern build track**.
 
 
 ## Project stack
 
-This project intentionally uses the technologies requested for the internship brief:
+This project uses the technologies :
 
 | Technology | Purpose |
 | --- | --- |
