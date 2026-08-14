@@ -75,6 +75,7 @@ The two comparison cards use the images in `assets/images/`. Replace those files
 
 ## Deployment
 
+https://cloud-exify-project-3-red.vercel.app/
 
 
 ## License and content note
