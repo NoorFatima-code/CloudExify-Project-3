@@ -52,16 +52,6 @@ noor-smile-dental-studio/
 
 The image files are bundled locally so the downloaded package does not depend on proprietary asset paths. Bootstrap, Bootstrap Icons and Google Fonts are loaded from their public CDNs when the visitor has an internet connection.
 
-## Run locally
-
-No package installation is required for the website. The optional `check-enhancements.mjs` file is only a local verification helper and is not needed by the browser. From the project directory, run a simple static server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000` in a browser. You can also open `index.html` directly, but a local server is recommended for consistent browser behavior.
-
 ## Main customization points
 
 To change the clinic details, edit the top bar, contact panel and footer in `index.html`. The service list, pricing plans, FAQ answers, and WhatsApp number are grouped near the top of `js/script.js` inside the `clinic` object. The design tokens are defined at the beginning of `css/style.css`, making it straightforward to adjust the brand color, paper tone, surface color, typography and shadows.
@@ -85,11 +75,7 @@ The two comparison cards use the images in `assets/images/`. Replace those files
 
 ## Deployment
 
-This is a static site and can be deployed to Vercel, Netlify, GitHub Pages or any standard static host. Upload the project folder as-is, keeping the relative paths between `index.html`, `css`, `js` and `assets` unchanged. For Vercel, import the folder or repository and use no build command; set the output directory to the project root if prompted.
 
-## Accessibility and performance notes
-
-The page includes a skip link, labelled controls, form labels, keyboard-operable sliders, descriptive image alt text, visible focus states, reduced-motion handling and responsive mobile layouts. For a production launch, compress the PNG assets to WebP or AVIF, connect the forms to a secure service, replace the sample contact details, add a privacy policy, and review the emergency-care language with the clinic.
 
 ## License and content note
 
